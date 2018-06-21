@@ -29,7 +29,9 @@ textarea {
 
 button {
     background-color: lightpink;
-    width: 100%;
+    width: 50%;
+    border: 1px solid #000;
+
 }
 
 .container-fluid {
@@ -41,11 +43,8 @@ button {
     top: 50px;
     margin-top: 20px;
     display: flex;
-    display: -webkit-flex;
     flex-wrap: wrap;
-    -webkit-flex-wrap: wrap;
     justify-content: center;
-    -webkit-justify-content: center;
 }
 
 .contact {
