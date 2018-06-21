@@ -10,17 +10,19 @@
 
 a {
     border-radius: 2em;
-    color: #000 !important;
+    color: #000;
     text-decoration: none;
     font-family: Nunito, sans-serif;
 }
 
 .container-fluid {
+    background-color: #4dbc69;
     max-width: 100%;
     margin: auto;
     max-height: 500px;
     position: relative;
-    top: 50px
+    top: 50px;
+    margin-top: 20px;
     display: flex;
     display: -webkit-flex;
     flex-wrap: wrap;
@@ -29,20 +31,8 @@ a {
     -webkit-justify-content: center;
 }
 
-.project {
-	background-image: url(https://voetbalquizkopen.nl/wp-content/uploads/2018/03/Logo.png);
-	background-size: cover;
-	background-position: center;
-    border-radius: 5%;
-	padding: 100px;
-    width: 100%;
-    margin: 100px;
-    border: 5px solid #000;
-    height: 50px;
-}
-
 .contact {
-	background-image: url(office.png);
+    background-color: lightpink;
 }
 
 .footer {
