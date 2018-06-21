@@ -8,11 +8,28 @@
     background-color: teal;
 }
 
-a {
+a, div p{
     border-radius: 2em;
     color: #000;
     text-decoration: none;
     font-family: Nunito, sans-serif;
+}
+
+input {
+    height: 30px;
+    width: 100%;
+    border: 2px solid teal;
+}
+
+textarea {
+    height: 200px;
+    width: 100%;
+    border: 2px solid teal;
+}
+
+button {
+    background-color: lightpink;
+    width: 100%;
 }
 
 .container-fluid {
@@ -43,4 +60,20 @@ a {
     bottom: 2vh;
     width: 100%;
     text-align: center;
+}
+ 
+.form {
+    max-width: 100%;
+    margin: auto;
+    max-height: 500px;
+    position: relative;
+    top: 50px;
+    margin-top: 20px;
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    justify-content: center;
+    -webkit-justify-content: center;  
+    }
 }
