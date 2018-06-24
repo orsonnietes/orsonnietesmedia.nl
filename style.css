@@ -8,11 +8,27 @@
     background-color: teal;
 }
 
-a, div p{
+a, div p {
     border-radius: 2em;
     color: #000;
     text-decoration: none;
     font-family: Nunito, sans-serif;
+}
+
+.container-fluid a {
+    background-color: #4dbc59;
+    border-radius: 0%;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.container-fluid a:hover {
+    background-color: darkslateblue;
+}
+
+.contact a {
+    background-color: lightpink;
 }
 
 input {
@@ -25,30 +41,39 @@ textarea {
     height: 200px;
     width: 100%;
     border: 2px solid teal;
+    padding-top: 6px;
 }
 
 button {
     background-color: lightpink;
+    font-family: Nunito, sans-serif;
+    height: 30px;
     width: 50%;
-    border: 1px solid #000;
+    margin-left: 50px;
+    font-size: 1em;
+}
 
+input:hover, textarea:hover {
+    border-color: #000;
+}
+
+button:hover {
+    background-color: darkslateblue;
+    cursor: pointer;
 }
 
 .container-fluid {
-    background-color: #4dbc69;
     max-width: 100%;
-    margin: auto;
-    max-height: 500px;
     position: relative;
+    margin: 1em;
+    padding: 1em;
     top: 50px;
-    margin-top: 20px;
-    display: flex;
+    display: inline-block;
+    display: -webkit-flex;
     flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
     justify-content: center;
-}
-
-.contact {
-    background-color: lightpink;
+    -webkit-justify-content: center;
 }
 
 .footer {
@@ -56,9 +81,10 @@ button {
     font-size: 12px;
     font-weight: 100;
     position: fixed;
-    bottom: 2vh;
+    bottom: 1px;
     width: 100%;
     text-align: center;
+    display: inline-block;
 }
  
 .form {
@@ -66,13 +92,12 @@ button {
     margin: auto;
     max-height: 500px;
     position: relative;
-    top: 50px;
-    margin-top: 20px;
-    display: flex;
+    margin-top: 10px;
+    display: inline-block;
     display: -webkit-flex;
     flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
     justify-content: center;
-    -webkit-justify-content: center;  
+    -webkit-justify-content: center;
     }
 }
