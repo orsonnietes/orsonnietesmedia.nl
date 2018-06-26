@@ -28,17 +28,17 @@
     <div class="form">
         <form name="contact" method="post" netlify>
             <p>
-                <label>Naam: <input type="text" name="name" placeholder=" Hoe heet je?" /></label>   
+                <label>Naam: <input type="text" name="name" placeholder=" Hoe heet je?" required/></label>   
             </p>
             
             <p>
-                <label>E-mail: <input type="email" name="email" placeholder=" Je e-mailadres." /></label>
+                <label>E-mail: <input type="email" name="email" placeholder=" Je e-mailadres." required/></label>
             </p>
   
             <p>
-                <label>Bericht: <textarea name="message" placeholder=" Wat wil je kwijt?"></textarea></label>
+                <label>Bericht: <textarea name="message" placeholder=" Wat wil je kwijt?" required></textarea></label>
             </p>
-  
+            <div data-netlify-recaptcha></div>
             <p>
                 <button type="submit">Verstuur</button>
             </p>
