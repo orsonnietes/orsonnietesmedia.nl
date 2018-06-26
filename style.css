@@ -51,15 +51,14 @@ a {
     font-family: Nunito, sans-serif;
     font-size: 12px;
     font-weight: 100;
-    position: absolute;
+    position: fixed;
     width: 100%;
     text-align: center;
     display: inline-block;
-    margin-top: 20%;
-    left: 0;
-    bottom: 0;
-    height: 20px;
+    bottom: 0px;
     width: 100%;
+    overflow: scroll;
+    clear: both;
 }
 
 /*contact-page*/
@@ -71,7 +70,6 @@ a {
 
 .form {
     max-width: 100%;
-    margin: auto;
     max-height: 100%;
     position: relative;
     margin-top: 5%;
@@ -91,25 +89,25 @@ div p {
 }
 
 input {
-    height: 30px;
+    height: 2em;
     width: 100%;
     border: 2px solid teal;
 }
 
 textarea {
-    height: 200px;
+    height: 14em;
     width: 100%;
-    border: 2px solid teal;
-    padding-top: 6px;
+    border: .2em solid teal;
+    padding-top: .6em;
 }
 
 button {
     background-color: lightpink;
     font-family: Nunito, sans-serif;
-    height: 30px;
-    width: 50%;
-    margin-left: 50px;
+    height: 2em;
+    width: 100%;
     font-size: 1em;
+    margin-left: 2%;
 }
 
 input:hover, textarea:hover {
