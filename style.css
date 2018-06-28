@@ -121,3 +121,9 @@ button:hover {
     background-color: teal;
     cursor: pointer;
 }
+
+/*thank-you-page*/
+
+.bedankt a{
+    background-color: darkseagreen;
+}
