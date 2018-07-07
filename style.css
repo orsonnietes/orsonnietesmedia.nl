@@ -44,7 +44,7 @@ a {
 }
 
 .container-fluid a:hover {
-    background-color: darkslateblue;
+    opacity: 0.9;
 }
 
 .contact a {
