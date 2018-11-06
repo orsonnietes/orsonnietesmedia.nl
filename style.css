@@ -14,6 +14,10 @@
     background-color: teal;
 }
 
+.title-special {
+    color: lightgreen;
+}
+
 .container-fluid {
     max-width: 100%;
     position: relative;
@@ -30,14 +34,14 @@
 }
 
 a {
-    border-radius: 2px;
+    border-radius: 20px;
     color: #000;
     text-decoration: none;
     font-family: Nunito, sans-serif;
 }
 
 .container-fluid a {
-    background-color: #4dbc59;
+    background-color: darkgrey;
     padding: 10px;
     width: 200px;
     text-align: center;
@@ -48,7 +52,7 @@ a {
 }
 
 .contact a {
-    background-color: lightpink;
+    background-color: darkgrey;
 }
 
 .footer {
