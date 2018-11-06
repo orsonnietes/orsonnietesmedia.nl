@@ -13,7 +13,6 @@
         gtag('js', new Date());
         gtag('config', 'UA-75337269-3');
     </script>
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <title>Orson Nietes Media</title>
   </head>
     
@@ -39,16 +38,5 @@
         </script>
         Orson Nietes Media.
     </div>
-    <script>
-        if (window.netlifyIdentity) {
-            window.netlifyIdentity.on("init", user => {
-        if (!user) {
-            window.netlifyIdentity.on("login", () => {
-                document.location.href = "/admin/";
-        });
-      }
-    });
-  }
-</script>
   </body>
 </html>
