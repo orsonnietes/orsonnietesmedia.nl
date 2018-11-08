@@ -19,6 +19,7 @@
 }
 
 .container-fluid {
+    background-color: lightgreen;
     max-width: 100%;
     position: relative;
     margin: 10px;
@@ -41,14 +42,14 @@ a {
 }
 
 .container-fluid a {
-    background-color: darkgrey;
+    background-color: #ff9;
     padding: 10px;
     width: 200px;
     text-align: center;
 }
 
 .container-fluid a:hover {
-    opacity: 0.9;
+    opacity: 0.7;
 }
 
 .footer {
