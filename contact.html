@@ -13,7 +13,6 @@
         gtag('js', new Date());
         gtag('config', 'UA-75337269-3');
     </script>
-      <script src='https://www.google.com/recaptcha/api.js?render=6LdvLHoUAAAAAG60bTXHuB-F-qgbMZsbdxh-MI90'></script>
 
     <title>Contact</title>
   </head>
@@ -24,7 +23,7 @@
     </div>
       
     <div class="form">
-        <form name="contact" method="post" action="/bedankt" netlify netlify-recaptcha netlify>
+        <form name="contact" method="post" action="/bedankt" netlify>
             <p>
                 <label>Naam: <input type="text" name="name" placeholder=" Hoe heet je?" required/></label>   
             </p>
@@ -37,20 +36,13 @@
                 <label>Bericht: <textarea name="message" placeholder=" Wat wil je kwijt?" required></textarea></label>
             </p>
             
+            <div data-netlify-recaptcha></div>
+
             <p class="submit">
                 <button type="submit">💌 Versturen</button>
             </p>
         </form>
     </div>
-      
-      <script>
-grecaptcha.ready(function() {
-grecaptcha.execute('6LdvLHoUAAAAAG60bTXHuB-F-qgbMZsbdxh-MI90', {action: 'action_name'})
-.then(function(token) {
-// Verify the token on the server.
-});
-});
-</script>
       
     <div class="footer">
         &copy; 2016 &ndash;
