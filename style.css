@@ -34,21 +34,20 @@
 }
 
 a {
-    border-radius: 20px;
     color: #000;
     text-decoration: none;
     font-family: Nunito, sans-serif;
 }
 
 .container-fluid a {
-    background-color: #fff;
+    border: 2px solid #000;
     padding: 10px;
     width: 200px;
     text-align: center;
 }
 
 .container-fluid a:hover {
-    background-color: teal;
+    background-color: lightgreen;
 }
 
 .footer {
@@ -109,11 +108,11 @@ button {
 }
 
 input:hover, textarea:hover {
-    border-color: teal;
+    border-color: lightgreen;
 }
 
 button:hover {
-    background-color: teal;
+    background-color: lightgreen;
     cursor: pointer;
 }
 
@@ -125,88 +124,4 @@ button:hover {
 
 .bedankt a{
     background-color: darkseagreen;
-}
-
-/*onoffswitch*/
-
-.onoffswitch {
-    position: relative;
-    top: 1vh;
-    margin-left: auto;
-    margin-right: 0px;
-    width: 15%;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-}
-
-.onoffswitch-checkbox {
-    display: none;
-}
-
-.onoffswitch-label {
-    display: block;
-    overflow: hidden;
-    cursor: pointer;
-    border: 2px solid #000;
-    border-radius: 20px;
-}
-
-.onoffswitch-inner {
-    display: block;
-    width: 200%;
-    margin-left: -100%;
-}
-
-.onoffswitch-inner:before,
-.onoffswitch-inner:after {
-    display: block;
-    float: left;
-    font-family: Nunito, sans-serif;
-    width: 50%;
-    height: 20%;
-    padding: 0;
-    line-height: 200%;
-    color: #000;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-.onoffswitch-inner:before {
-    content: "⚫ AAN";
-    background-color: #fff;
-    color: #000;
-    text-align: center;
-}
-
-.onoffswitch-inner:after {
-    content: "⚪ UIT";
-    background-color: #fff;
-    color: #000;
-    text-align: center;
-}
-
-.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
-    margin-left: 0;
-}
-
-.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
-    right: 0px;
-    background-color: #000;
-}
-
-#box1 {
-  color: black;
-  background-color: white;
-  border: 1px solid;
-  width: 100px;
-  height: 100px;
-}
-
-#box1.dark-mode {
-  color: #fff;
-  background-color: #000;
-  width: 100px;
-  height: 100px;
 }
