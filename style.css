@@ -18,6 +18,21 @@
     color: lightgreen;
 }
 
+.text {
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    font-family: Nunito, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    top: 5em;
+}
+
+.text a:hover {
+    color: #4dbc69;
+}
+
 .container-fluid {
     max-width: 100%;
     position: relative;
@@ -47,7 +62,7 @@ a {
 }
 
 .container-fluid a:hover {
-    background-color: lightgreen;
+    background-color: #4dbc69;
 }
 
 .footer {
@@ -108,11 +123,11 @@ button {
 }
 
 input:hover, textarea:hover {
-    border-color: lightgreen;
+    border-color: #4dbc69;
 }
 
 button:hover {
-    background-color: lightgreen;
+    background-color: #4dbc69;
     cursor: pointer;
 }
 
@@ -123,5 +138,5 @@ button:hover {
 /*thank-you-page*/
 
 .bedankt a{
-    background-color: darkseagreen;
+    background-color: #4dbc69;
 }
