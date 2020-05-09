@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Orson Nietes Media. Voor al uw levensvragen." />
     <meta name="google-site-verification" content="Xw6IUeOWj_H2oKyhLGnq8einQAT3KVIYrHOOSXcadfc" />
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -17,17 +16,24 @@
   </head>
     
   <body>
-    <div class="title-arch">
-    <a href="https://orsonnietesmedia.nl/" rel="home">Orson Nietes Media</a>
+    <div class="title">
+      <a href="https://orsonnietesmedia.nl/" rel="home">Orson Nietes Media</a>
     </div>
       
-    <div class="text">      
-        <br><br>
-        Bekend van onder andere <mark><a href="https://voetbalquizkopen.nl" target="_blank"> Voetbalquiz Kopen</a></mark>.
-        <br><br>
-        Laat <mark><a href="contact.html">hier</a></mark> een bericht achter.
-    </div>
-      
+    <div class="form">
+      <form name="contact" method="post" action="/bedankt" netlify>
+          <p><label>Naam: <input type="text" name="name" placeholder=" Hoe heet je?" required/></label></p>
+          
+          <p><label>E-mail: <input type="email" name="email" placeholder=" Je e-mailadres." required/></label></p>
+
+          <p><label>Bericht: <textarea name="message" placeholder=" Wat wil je kwijt?" required></textarea></label></p>
+          
+          <div data-netlify-recaptcha></div>
+
+          <p class="submit"><button type="submit">Verstuur</button></p>
+      </form>
+  </div>
+
     <div class="footer">
         &copy; 2016 &ndash;
         <script type="text/javascript">
@@ -35,7 +41,7 @@
             var year = today.getFullYear()
             document.write(year)
         </script>
-        Orson Nietes Media.
+        Orson Nietes Media. Kamer van Koophandel: 64101517.
     </div>
   </body>
 </html>
