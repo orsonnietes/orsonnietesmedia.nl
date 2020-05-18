@@ -81,6 +81,7 @@ a {
     -webkit-flex-wrap: wrap;
     justify-content: center;
     -webkit-justify-content: center;
+    overflow: hidden;
 }
 
 div p {
@@ -128,38 +129,3 @@ button:hover {
 .bedankt a{
     background-color: #4dbc69;
 }
-
-/*test*/
-
-.grid-container {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: auto;
-    padding: 10px;
-    max-width: 100%;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    margin: 10px;
-    padding: 10px;
-    top: 5em;
-    background-color: #fff;
-    padding-bottom: 100px;
-  }
-
-.grid-item {
-    background-color: #fff;
-    border: 1px solid #000;
-    padding: 20px;
-    font-size: 30px;
-    text-align: left;
-    position: relative;
-  }
-
-  .country-year {
-      color: #777777;
-      font-size: 12px;
-      display: flex;
-      padding-top: 10px;
-    }

@@ -1,5 +1,4 @@
-/bedankt.html   /bedankt
-/test.html      /test
+/bedankt.html           /bedankt
 
 # Redirect default Netlify subdomain to primary domain
 http://nifty-fermat-ed38f5.netlify.com/* http://orsonnietesmedia.nl/:splat 301!
