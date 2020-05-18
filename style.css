@@ -1,7 +1,8 @@
-/*sitewide*/
+.html {
+    overflow: hidden;
+}
 
 .body {
-    overflow: hidden;
     background-color: #fff;
     height: 100%;
     margin: 0;
@@ -67,14 +68,11 @@ a {
     padding: 10px;
 }
 
-/*contact-page*/
-
 .form {
     max-width: 100%;
     max-height: 100%;
     position: relative;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 100px;
     display: inline-block;
     display: -webkit-flex;
     flex-wrap: wrap;
@@ -95,20 +93,30 @@ input {
     overflow: scroll;
     width: 100%;
     border: .2em solid #000;
+    border-radius: 5px;
+    text-indent: 5px;
+    font-size: 16px;
+    outline: none;
 }
 
 textarea {
     height: 14em;
-    overflow: scroll;
+    overflow: hidden;
     width: 100%;
     border: .2em solid #000;
     padding-top: .6em;
+    border-radius: 5px;
+    text-indent: 5px;
+    font-size: 16px;
+    outline: none;
 }
 
 button {
     border: .1em solid #000;
     height: 2em;
     font-size: 1em;
+    border-radius: 5px;
+    outline: none;
 }
 
 input:hover, textarea:hover {
